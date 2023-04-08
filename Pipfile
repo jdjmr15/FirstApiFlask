@@ -4,12 +4,19 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+flask="*"
+flask_bootstrap="*" 
+template-render="*"
+flake8 = "*"
+flask-smorest="*"
+python-dotenv="*"
 pycodestyle = "*"
 autopep8 = "*"
-flask = "*"
-flake8 = "*" 
 
 [dev-packages]
+flask="*"
+flask_bootstrap="*" 
+template-render="*"
 
 [requires]
 python_version = "3.10"

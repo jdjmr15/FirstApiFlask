@@ -1,3 +1,5 @@
 .mypy_cache/
 Pipfile.lock
-__pycache__/
+Pipfile
+.gitignore
+.git
